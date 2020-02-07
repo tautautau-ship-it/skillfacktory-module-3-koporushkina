@@ -1,0 +1,117 @@
+body {
+  background-color: #e7e6e2;
+  color: #000;
+  font-family: Ubuntu, Arial, sans-serif;
+  margin: 0;
+}
+
+.header__wrap {
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #1a1918;
+  font-family: Ubuntu, Arial, sans-serif;
+}
+
+.link {
+  color: #000;
+  -moz-transition: color 0.2s 0.02s ease;
+  -o-transition: color 0.2s 0.02s ease;
+  -webkit-transition: color 0.2s 0.02s ease;
+}
+
+.link:hover {
+  color: #b44f1e;
+}
+
+.header__tag {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.main {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 38px;
+}
+
+h1 {
+  font-family: Ubuntu;
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Ubuntu;
+  font-size: 20px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.about__main {
+  display: flex;
+}
+
+.about__main,
+.about__education,
+.about__skills,
+.about__hobby,
+.about__contacts,
+.about__who {
+  background-color: #e7e6e2;
+  padding: 40px;
+  justify-content: space-between;
+  margin: 30px 0;
+  text-align: justify;
+  line-height: 20px;
+  border: 2px solid #b44f1e;
+}
+
+.about__main:hover,
+.about__education:hover,
+.about__skills:hover,
+.about__hobby:hover,
+.about__contacts:hover,
+.about__who:hover {
+  background-color: #f5e1bf;
+  border: 2px solid #f5e1bf;
+}
+
+.about__img img {
+  opacity: 1;
+  transition: opacity 124ms linear, transform 124ms linear;
+  height: 300px;
+  border: 1px solid #b44f1e;
+}
+
+.about__img img:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+.about__text {
+  margin-left: 30px;
+  padding: 0 10px;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
+  background-color: #1a1918;
+  padding: 10px;
+  font-family: Ubuntu, Arial, sans-serif;
+}
+
+/* скролл */
+::-webkit-scrollbar { width: 7px; }
+::-webkit-scrollbar-track { background-color: #1a1918; }
+::-webkit-scrollbar-thumb { background-color: #b44f1e; }
